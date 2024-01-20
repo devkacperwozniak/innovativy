@@ -1,0 +1,31 @@
+{
+	"intro": {
+		"start": "const myName = () =>",
+		"end": "Hey there!, we're innovativy",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"usp": "We create innovative solutions"
+	},
+
+	"paragraph": "Get your project done with us. We will design, build and deliver your idea from start to finish. Our agile and innovative approach guarantees success.",
+
+	"buttons": {
+		"primary": {
+			"title": "Hire Me",
+			"url": "mailto:s.muhammadfiaz2003@gmail.com",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/muhammad-fiaz-/",
+			"leaveSite": "true"
+		}
+	}
+}
