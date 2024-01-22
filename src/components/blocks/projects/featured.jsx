@@ -9,6 +9,8 @@ import Badges from '../../utils/badge.list'
 import Icon from '../../utils/icon'
 
 import css from '../../../styles/scss/sections/projects/featured.module.scss'
+import about from '../../../styles/scss/sections/index/about.module.scss';
+
 
 export default function FeaturedProject({ content }, index) {
 
@@ -42,13 +44,12 @@ export default function FeaturedProject({ content }, index) {
 						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>	
 					</div>
 					<div className={css.description}>
-						<p><strong>{descriptionTitle}</strong> {description}</p>
+						<p>{descriptionTitle} {description}</p>
 					</div>
 					<div className={css.stackContainer}>
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
 					<m.div variants={''} className={css.viewProject}>
-						<Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} />
 					</m.div>
 				</div>
 			</div>

@@ -16,8 +16,13 @@ import content from '../../../content/index/hero.json';
 
 export default function Hero() {
 	const [, setTypingStatus] = useState('Initializing');
-	const [isHiremeTooltipVisible, setIsHiremeTooltipVisible] = useState(false);
-	const [isYescatTooltipVisible, setIsYescatTooltipVisible] = useState(false);
+	const scrollToSection = () => {
+		const targetElement = document.getElementById('contact');
+	
+		if (targetElement) {
+		  targetElement.scrollIntoView({ behavior: 'smooth' });
+		}
+	  };
 
 	return (
 		<Section classProp={`${hero.section}`}>
@@ -60,36 +65,10 @@ export default function Hero() {
 				<section style={{ position: 'relative' }}>
 					<button
 						className={`button ${button.primary}`}
-						onClick={() => (window.location = 'mailto:contact@muhammadfiaz.com')}
-						onMouseEnter={() => setIsHiremeTooltipVisible(true)}
-						onMouseLeave={() => setIsHiremeTooltipVisible(false)}
+						onClick={() => (scrollToSection())}
 					>
-						{content.buttons.primary.title}
+						Contact
 					</button>
-					{isHiremeTooltipVisible && (
-						<div className={`${hero.tooltipContent} ${hero.hireme_tooltip}`}>
-
-							<Image src="/gif/hireme.gif" width={100} height={100} alt="Yescat GIF" />
-
-						</div>
-					)}
-					<button
-						className={`button ${button.secondary} leaveSite`}
-
-						onClick={() => window.open('https://www.linkedin.com/in/muhammad-fiaz-', '_blank')}
-
-						onMouseEnter={() => setIsYescatTooltipVisible(true)}
-						onMouseLeave={() => setIsYescatTooltipVisible(false)}
-					>
-						{content.buttons.secondary.title}
-					</button>
-					{isYescatTooltipVisible && (
-						<div className={`${hero.tooltipContent} ${hero.yescat_tooltip}`}>
-
-							<Image src="/gif/yes.gif" width={100} height={100} alt="GIF" />
-
-						</div>
-					)}
 				</section>
 			</Container>
 			<HeroBg theme="bg-color-1" />

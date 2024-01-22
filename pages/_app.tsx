@@ -24,7 +24,6 @@ import dynamic from "next/dynamic";
 import "../src/styles/css/sections/404.css";
 import "../src/styles/css/utils/anim.css";
 import settings from '../src/content/_settings.json';
-const DevelopmentNotice = dynamic(() => import("../src/components/dev/status"));
 const BackToTop = dynamic(() => import("../src/components/utils/backtotop"));
 const Chatbot = dynamic(() => import("../src/components/sections/index/chatbot"));
 import { AppProps } from 'next/app';
@@ -97,8 +96,7 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
                 <LazyMotion features={domAnimation}>
                     <Layout>
                         <Component {...pageProps} />
-                        <DevelopmentNotice />
-                        <Chatbot />
+                        {/* <Chatbot /> */}
                         <SpeedInsights />
                         <Analytics />
                         <SetGridGap />

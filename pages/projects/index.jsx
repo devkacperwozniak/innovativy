@@ -14,10 +14,10 @@ import TitleProjects from "./title.projects";
 export default function Projects({ user, repos }) {
 	return (
 		<>
-			<TitleProjects/>
-		<Color colors={colors} />
+			{/* <TitleProjects/> */}
+		{/* <Color colors={colors} /> */}
 		<FeaturedProjects />
-		<GitRecentProjects user={user} repos={repos} />
+		{/* <GitRecentProjects user={user} repos={repos} /> */}
 		</>
 	)
 }
