@@ -1,7 +1,7 @@
 
 import {useEffect, useState} from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faChevronUp} from '@fortawesome/free-solid-svg-icons';
+// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+// import {faChevronUp} from '@fortawesome/free-solid-svg-icons';
 
 // this will show a "Back to Top" button when the user scrolls down from the top of the page
 const BackToTop = () => {
@@ -35,7 +35,7 @@ const BackToTop = () => {
         <>
             {isVisible && (
                 <button className="back-to-top" onClick={scrollToTop}>
-                    <FontAwesomeIcon icon={faChevronUp} />
+                    {/* <FontAwesomeIcon icon={faChevronUp} /> */}
                 </button>
             )}
 

@@ -1,7 +1,7 @@
 
 import React, {useEffect, useState} from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faCommentAlt, faPaperPlane, faTimes} from '@fortawesome/free-solid-svg-icons';
+// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+// import {faCommentAlt, faPaperPlane, faTimes} from '@fortawesome/free-solid-svg-icons';
 import Cookies from 'js-cookie';
 import Image from 'next/image';
 
@@ -152,12 +152,12 @@ const Chatbot: React.FC = () => {
                             value={message}
                             onChange={handleInputChange}
                         />
-                        <FontAwesomeIcon icon={faPaperPlane} className="send-icon" onClick={handleSendMessage} />
+                        {/* <FontAwesomeIcon icon={faPaperPlane} className="send-icon" onClick={handleSendMessage} /> */}
                     </div>
                 </div>
             )}
             <div className={`chatbot-button ${isChatVisible ? 'active' : ''}`} onClick={toggleChat}>
-                {isChatVisible ? <FontAwesomeIcon icon={faTimes} className="close-icon" /> : <FontAwesomeIcon icon={faCommentAlt} />}
+                {/* {isChatVisible ? <FontAwesomeIcon icon={faTimes} className="close-icon" /> : <FontAwesomeIcon icon={faCommentAlt} />} */}
             </div>
         </div>
     );
