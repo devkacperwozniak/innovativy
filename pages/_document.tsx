@@ -10,20 +10,20 @@ export default function Document() {
 			
 <Head>
 {/*
-				Author: Innovativy
+				Author: inovativy
                  GitHub: Visit the GitHub repository at https://github.com/muhammad-fiaz/portfolio/ for more details.
                  license: MIT License
                   */}
     <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
-    <title>Innovativy</title>
-       <meta name="description" content="Innovativy - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
+    <title>inovativy</title>
+       <meta name="description" content="inovativy - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
 
     {/*These are need for PWA*/}
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Innovativy" />
+    <meta name="apple-mobile-web-app-title" content="inovativy" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
@@ -41,7 +41,7 @@ export default function Document() {
 
             <link rel="dns-prefetch" href="https://muhammadfiaz.com" />
 
-            <meta name="author" content="Innovativy" />
+            <meta name="author" content="inovativy" />
 
             <link rel="alternate" hrefLang="en" href="https://muhammadfiaz.com" />
 
@@ -66,25 +66,25 @@ export default function Document() {
 
 
 
-            <meta property="og:title" content="Innovativy" key="title" />
-            <meta property="og:description" content="Innovativy - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
+            <meta property="og:title" content="inovativy" key="title" />
+            <meta property="og:description" content="inovativy - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
             <meta property="og:image" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
             <meta property="og:image:secure_url" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
             <meta property="og:image:type" content="image/jpeg" />
-            <meta property="og:image:alt" content="Innovativy" />
+            <meta property="og:image:alt" content="inovativy" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
             <meta property="og:url" content="https://muhammadfiaz.com" />
             <meta property="og:type" content="website" />
             <meta property="og:profile" content="https://github.com/muhammad-fiaz" />
-            <meta property="og:site_name" content="Innovativy" />
+            <meta property="og:site_name" content="inovativy" />
              <meta property="og:locale" content="en_US" />
 
 
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content="https://twitter.com/muhammadfiaz_" />
-            <meta name="twitter:title" content="Innovativy" />
-            <meta name="twitter:description" content="Innovativy - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
+            <meta name="twitter:title" content="inovativy" />
+            <meta name="twitter:description" content="inovativy - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
             <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
             <meta name="twitter:creator" content="https://twitter.com/muhammadfiaz_" />
             <meta name="twitter:domain" content="https://muhammadfiaz.com" />
@@ -100,28 +100,28 @@ export default function Document() {
 
             {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
             <meta name="keywords" content="
-    Innovativy, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
+    inovativy, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
     Programmer, Software Developer, Portfolio Website, Web Developer, Coding, Full Stack Development,
     Technology Enthusiast, Software Development, Computer Science, Programming Projects,
     Frontend Developer, Backend Developer, Software Development Portfolio, Student,
-    Full Stack Web Developer, Innovativy Portfolio, Coding Projects, Tech Portfolio,
-    Web Development, DevOps Professional, Innovativy Projects, Software Engineer Portfolio,
+    Full Stack Web Developer, inovativy Portfolio, Coding Projects, Tech Portfolio,
+    Web Development, DevOps Professional, inovativy Projects, Software Engineer Portfolio,
     IT Professional, Technology Projects, Software Development Engineer, Computer Programmer,
     Code Portfolio, Technology Student, Software Architect, Cloud Computing,
     DevOps Specialist, Software Engineering Projects, Coding Portfolio,
-    Full Stack Engineer Portfolio, Innovativy Web Developer,
+    Full Stack Engineer Portfolio, inovativy Web Developer,
     Software Development Student, Coding Enthusiast, DevOps Portfolio, Programming Portfolio,
-    Innovativy DevOps, IT Portfolio, Web Developer Portfolio, Innovativy Developer,
-    Full Stack Engineer Innovativy, Innovativy Coding, Innovativy IT,
-    Innovativy Full Stack Developer, Innovativy Software Engineer, Innovativy DevOps Engineer,
-    Innovativy Programming, Innovativy Software Development, Innovativy Coding Projects,
-    Innovativy Tech Portfolio, Innovativy IT Portfolio, Innovativy Software Engineer Portfolio,
-    Innovativy Web Developer Portfolio, Innovativy DevOps Portfolio, Innovativy Full Stack Engineer,
-    Innovativy Full Stack Developer Portfolio, Innovativy Coding Portfolio, Innovativy Programming Portfolio,
-    Innovativy Software Development Portfolio, Innovativy Technology Projects,
-    Innovativy Computer Science, Innovativy Cloud Computing, Innovativy IT Professional,
-    Innovativy Technology Enthusiast, Innovativy Computer Programmer, Innovativy Code Portfolio,
-    Innovativy Technology Student, Innovativy Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
+    inovativy DevOps, IT Portfolio, Web Developer Portfolio, inovativy Developer,
+    Full Stack Engineer inovativy, inovativy Coding, inovativy IT,
+    inovativy Full Stack Developer, inovativy Software Engineer, inovativy DevOps Engineer,
+    inovativy Programming, inovativy Software Development, inovativy Coding Projects,
+    inovativy Tech Portfolio, inovativy IT Portfolio, inovativy Software Engineer Portfolio,
+    inovativy Web Developer Portfolio, inovativy DevOps Portfolio, inovativy Full Stack Engineer,
+    inovativy Full Stack Developer Portfolio, inovativy Coding Portfolio, inovativy Programming Portfolio,
+    inovativy Software Development Portfolio, inovativy Technology Projects,
+    inovativy Computer Science, inovativy Cloud Computing, inovativy IT Professional,
+    inovativy Technology Enthusiast, inovativy Computer Programmer, inovativy Code Portfolio,
+    inovativy Technology Student, inovativy Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
     fiaz devops portfolio,fiaz devops projects,fiaz devops specialist,fiaz devops professional,fiaz devops engineer portfolio,
     fiaz devops engineer projects,fiaz devops engineer specialist,fiaz devops engineer professional,fiaz devops engineer coding,
     fiaz devops engineer coding projects,fiaz devops engineer coding portfolio,fiaz devops engineer coding specialist,
@@ -141,7 +141,7 @@ export default function Document() {
                     __html: `{
           "@context": "https://schema.org",
           "@type": "Person",
-          "name": "Innovativy",
+          "name": "inovativy",
           "url": "https://muhammadfiaz.com",
           "sameAs": [
             "https://github.com/muhammad-fiaz",
@@ -180,26 +180,26 @@ export default function Document() {
               },
               {
                 "@type": "Question",
-                "name": "Who is Innovativy?",
+                "name": "Who is inovativy?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Innovativy is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Innovativy strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Innovativy is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
+                  "text": "inovativy is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, inovativy strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. inovativy is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Where is Innovativy from?",
+                "name": "Where is inovativy from?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Innovativy is from Madurai, Tamil Nadu, India."
+                  "text": "inovativy is from Madurai, Tamil Nadu, India."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What does Innovativy do?",
+                "name": "What does inovativy do?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Innovativy leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
+                  "text": "inovativy leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
                 }
               }
             ]

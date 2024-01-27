@@ -45,7 +45,7 @@ export default function Footer(): JSX.Element {
 					</ul>
 					<ul className={css.links}>
 						<li>
-							<h4>© Innovativy: Software House <br />Poland 2024</h4>
+							<h4>© inovativy: Software House <br />Poland 2024</h4>
 						</li>
 					</ul>
 					<ul className={css.social}>

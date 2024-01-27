@@ -7,17 +7,17 @@ export default function Title500() {
         <Head>
 
             {/*
-				Author: Innovativy
+				Author: inovativy
                  GitHub: Visit the GitHub repository at https://github.com/muhammad-fiaz/portfolio/ for more details.
                  license: MIT License
                   */}
             <meta charSet="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-            <title>500: internal server error | Innovativy</title>
+            <title>500: internal server error | inovativy</title>
             <meta name="description" content="The requested page was occur internal server error " />
             {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
-            <meta name="keywords" content="500, internal server error, Innovativy, Portfolio,broken link ,missing page,link not found" />
+            <meta name="keywords" content="500, internal server error, inovativy, Portfolio,broken link ,missing page,link not found" />
 
 
 

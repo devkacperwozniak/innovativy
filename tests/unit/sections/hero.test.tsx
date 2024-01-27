@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 [Innovativy](https://github.com/muhammad-fiaz/)
+ * Copyright (c) 2023 [inovativy](https://github.com/muhammad-fiaz/)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@ describe('Hero section parts', () => {
 		render(<Hero />)
 		
 		const heading = screen.getByRole('heading', {
-			name: /Innovativy\./i,
+			name: /inovativy\./i,
 		})
 		
 		expect(heading).toBeInTheDocument()

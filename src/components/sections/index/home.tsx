@@ -31,7 +31,7 @@ export default function Home() {
 							fullContainer="fullContainer"
 							block="methods"
 							icon="computer"
-							copy="One of the most common question asked by companies: how can we streamline our procedures? No matter if you already have plan or you just encountered a problem that must be solved - we'll discuss possible options with you and deliver a solution. Innovativy is focused on innovative solutions that helps your company grow faster. Automating repetitive tasks can save time and reduce errors. There are various approaches for automating tasks depending on the nature of the tasks and the context."
+							copy="One of the most common question asked by companies: how can we streamline our procedures? No matter if you already have plan or you just encountered a problem that must be solved - we'll discuss possible options with you and deliver a solution. inovativy is focused on innovative solutions that helps your company grow faster. Automating repetitive tasks can save time and reduce errors. There are various approaches for automating tasks depending on the nature of the tasks and the context."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`} invertedColor={undefined} />
 					</div>

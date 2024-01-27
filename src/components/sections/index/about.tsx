@@ -21,7 +21,7 @@ export default function Home() {
 				<SectionTitle
 					title="About"
 					preTitle=""
-					subTitle="At Innovativy, we believe that innovation is a collective effort. Your unique insights and ideas are the fuel that powers groundbreaking solutions. By sharing your thoughts with us, you're not just contributing an idea — you're shaping the future!"
+					subTitle="At inovativy, we believe that innovation is a collective effort. Your unique insights and ideas are the fuel that powers groundbreaking solutions. By sharing your thoughts with us, you're not just contributing an idea — you're shaping the future!"
 				/>
 				<section className={about.content}>
 					<div className={about.copy}>
