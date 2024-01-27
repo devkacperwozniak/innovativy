@@ -68,8 +68,8 @@ export default function Document() {
 
             <meta property="og:title" content="inovativy" key="title" />
             <meta property="og:description" content="inovativy - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta property="og:image" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
-            <meta property="og:image:secure_url" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
+            <meta property="og:image" content="" />
+            <meta property="og:image:secure_url" content="" />
             <meta property="og:image:type" content="image/jpeg" />
             <meta property="og:image:alt" content="inovativy" />
             <meta property="og:image:width" content="300" />
