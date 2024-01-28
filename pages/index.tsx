@@ -29,7 +29,7 @@ export default function HomePage({ spacing }: HomePageProps) {
 	useEffect(() => {
 		const timer = setTimeout(() => {
 			setComponentsLoaded(true);
-		}, 1000);
+		}, 10);
 
 		return () => clearTimeout(timer);
 	}, []);

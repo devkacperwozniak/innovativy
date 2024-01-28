@@ -64,7 +64,7 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
         if (shouldShowSplashscreen) {
             const timer = setTimeout(() => {
                 setIsLoading(false);
-            }, 4000);
+            }, 10);
 
             return () => clearTimeout(timer);
         } else {
