@@ -5,7 +5,6 @@ import TitleIndex from './title.index';
 // Import your components with dynamic import
 import dynamic from 'next/dynamic';
 import LoadingAnim from "../src/components/intro/loadinganim";
-import TimeLine from "../src/components/sections/index/timeline";
 const Hero = dynamic(() => import('../src/components/sections/index/hero'));
 const Looking = dynamic(() => import('../src/components/sections/index/looking'));
 const About = dynamic(() => import('../src/components/sections/index/home'));
@@ -14,7 +13,6 @@ const Career = dynamic(() => import('../src/components/sections/index/optional/c
 const FeaturedProjects = dynamic(() => import('../src/components/sections/projects/featured'));
 const Color = dynamic(() => import('../src/components/utils/page.colors'));
 import settings from '../src/content/_settings.json';
-import GithubGraphSection from "../src/components/sections/index/github.graph";
 
 interface HomePageProps {
 	spacing: string[];

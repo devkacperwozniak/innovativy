@@ -18,14 +18,12 @@ import '../node_modules/devicon/devicon.min.css'
 import '../src/styles/css/variables.css'
 import '../src/styles/css/global.css'
 import "../src/styles/css/utils/splash.css";
-import "../src/styles/css/utils/chatbot.css";
 import "../src/styles/css/utils/backtotop.css";
 import dynamic from "next/dynamic";
 import "../src/styles/css/sections/404.css";
 import "../src/styles/css/utils/anim.css";
 import settings from '../src/content/_settings.json';
 const BackToTop = dynamic(() => import("../src/components/utils/backtotop"));
-const Chatbot = dynamic(() => import("../src/components/sections/index/chatbot"));
 import { AppProps } from 'next/app';
 
 
@@ -96,7 +94,6 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
                 <LazyMotion features={domAnimation}>
                     <Layout>
                         <Component {...pageProps} />
-                        {/* <Chatbot /> */}
                         <SpeedInsights />
                         <Analytics />
                         <SetGridGap />
