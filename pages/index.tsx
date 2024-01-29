@@ -12,7 +12,6 @@ const About = dynamic(() => import('../src/components/sections/index/home'));
 const Technical = dynamic(() => import('../src/components/sections/index/technical'));
 const Career = dynamic(() => import('../src/components/sections/index/optional/career'));
 const FeaturedProjects = dynamic(() => import('../src/components/sections/projects/featured'));
-const QnA = dynamic(() => import('../src/components/sections/index/qna'));
 const Color = dynamic(() => import('../src/components/utils/page.colors'));
 import settings from '../src/content/_settings.json';
 import GithubGraphSection from "../src/components/sections/index/github.graph";
