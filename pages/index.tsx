@@ -9,7 +9,6 @@ const Hero = dynamic(() => import('../src/components/sections/index/hero'));
 const Looking = dynamic(() => import('../src/components/sections/index/looking'));
 const About = dynamic(() => import('../src/components/sections/index/home'));
 const Technical = dynamic(() => import('../src/components/sections/index/technical'));
-const Career = dynamic(() => import('../src/components/sections/index/optional/career'));
 const FeaturedProjects = dynamic(() => import('../src/components/sections/projects/featured'));
 const Color = dynamic(() => import('../src/components/utils/page.colors'));
 import settings from '../src/content/_settings.json';
@@ -38,7 +37,6 @@ export default function HomePage({ spacing }: HomePageProps) {
 			<About />
 			<Technical />
 			{/*	<TimeLine/> -> Still In Development*/}
-			{/* <Career /> */}
 		</div>
 	);
 

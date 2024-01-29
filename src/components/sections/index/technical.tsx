@@ -15,7 +15,7 @@ import CopyBlock from '../../blocks/about.copy'
 
 // Section scss
 import technical from '../../../styles/scss/sections/index/about.module.scss'
-import Career from './optional/career';
+import ContactContent from './optional/contactcontent';
 
 
 export default function Technical() {
@@ -51,7 +51,7 @@ export default function Technical() {
 					preTitle=""
 					subTitle=""
 				/>
-				<Career />
+				<ContactContent />
 			</div>
 		</Section>
 
