@@ -7,18 +7,18 @@
 	"version": "1.0.6",
 
 	"username": {
-		"github": "muhammad-fiaz",
-		"medium": "@muhammad-fiaz",
-		"dev": "muhammadfiaz"
+		"github": "andziakwozniakcodehub",
+		"medium": "@andziakwozniakcodehub",
+		"dev": "andziakwozniakcodehub"
 	},
 	"repository": {
-		"owner": "muhammad-fiaz",
-		"name": "portfolio",
-		"repoName": "portfolio"
+		"owner": "andziakwozniakcodehub",
+		"name": "inovativy",
+		"repoName": "inovativy"
 	},
 	"portfolio": {
 		"fork_this": "Open-Source project 🥰",
-		"repo_html": "https://github.com/devkacperwozniak",
-		"repo_api": "https://api.github.com/repos/muhammad-fiaz/portfolio"
+		"repo_html": "https://github.com/andziakwozniakcodehub",
+		"repo_api": "https://api.github.com/repos/andziakwozniakcodehub/inovativy"
 	}
 }

@@ -11,7 +11,6 @@ export default function Document() {
 <Head>
 {/*
 				Author: inovativy
-                 GitHub: Visit the GitHub repository at https://github.com/muhammad-fiaz/portfolio/ for more details.
                  license: MIT License
                   */}
     <meta charSet="utf-8" />
@@ -33,17 +32,17 @@ export default function Document() {
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
             <meta name="language" content="English"/>
             <meta name="revisit-after" content="1 days"/>
-            <link rel="canonical" href="https://muhammadfiaz.com" />
+            <link rel="canonical" href="https://innovativy.com" />
             <meta name="license" content="MIT License" />
             <meta httpEquiv="content-language" content="en-us" />
 
-            <link rel="preconnect" href="https://muhammadfiaz.com" />
+            <link rel="preconnect" href="https://innovativy.com" />
 
-            <link rel="dns-prefetch" href="https://muhammadfiaz.com" />
+            <link rel="dns-prefetch" href="https://innovativy.com" />
 
             <meta name="author" content="inovativy" />
 
-            <link rel="alternate" hrefLang="en" href="https://muhammadfiaz.com" />
+            <link rel="alternate" hrefLang="en" href="https://innovativy.com" />
 
             <meta name="robots" content="index, follow" />
             <meta name="googlebot" content="index, follow" />
@@ -74,20 +73,18 @@ export default function Document() {
             <meta property="og:image:alt" content="inovativy" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
-            <meta property="og:url" content="https://muhammadfiaz.com" />
+            <meta property="og:url" content="https://innovativy.com" />
             <meta property="og:type" content="website" />
-            <meta property="og:profile" content="https://github.com/muhammad-fiaz" />
+            <meta property="og:profile" content="https://no-site.com" />
             <meta property="og:site_name" content="inovativy" />
              <meta property="og:locale" content="en_US" />
 
 
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:site" content="https://twitter.com/muhammadfiaz_" />
             <meta name="twitter:title" content="inovativy" />
             <meta name="twitter:description" content="inovativy - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
             <meta name="twitter:image" content="" />
-            <meta name="twitter:creator" content="https://twitter.com/muhammadfiaz_" />
-            <meta name="twitter:domain" content="https://muhammadfiaz.com" />
+            <meta name="twitter:domain" content="https://innovativy.com" />
 
 
     <link rel='apple-touch-startup-image' href='/img/logo_rounded.png' sizes='2048x2732' />
@@ -100,7 +97,6 @@ export default function Document() {
 
             {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
             <meta name="keywords" content="
-    inovativy, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
     Programmer, Software Developer, Portfolio Website, Web Developer, Coding, Full Stack Development,
     Technology Enthusiast, Software Development, Computer Science, Programming Projects,
     Frontend Developer, Backend Developer, Software Development Portfolio, Student,
@@ -112,19 +108,6 @@ export default function Document() {
     Full Stack Engineer Portfolio, inovativy Web Developer,
     Software Development Student, Coding Enthusiast, DevOps Portfolio, Programming Portfolio,
     inovativy DevOps, IT Portfolio, Web Developer Portfolio, inovativy Developer,
-    Full Stack Engineer inovativy, inovativy Coding, inovativy IT,
-    inovativy Full Stack Developer, inovativy Software Engineer, inovativy DevOps Engineer,
-    inovativy Programming, inovativy Software Development, inovativy Coding Projects,
-    inovativy Tech Portfolio, inovativy IT Portfolio, inovativy Software Engineer Portfolio,
-    inovativy Web Developer Portfolio, inovativy DevOps Portfolio, inovativy Full Stack Engineer,
-    inovativy Full Stack Developer Portfolio, inovativy Coding Portfolio, inovativy Programming Portfolio,
-    inovativy Software Development Portfolio, inovativy Technology Projects,
-    inovativy Computer Science, inovativy Cloud Computing, inovativy IT Professional,
-    inovativy Technology Enthusiast, inovativy Computer Programmer, inovativy Code Portfolio,
-    inovativy Technology Student, inovativy Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
-    fiaz devops portfolio,fiaz devops projects,fiaz devops specialist,fiaz devops professional,fiaz devops engineer portfolio,
-    fiaz devops engineer projects,fiaz devops engineer specialist,fiaz devops engineer professional,fiaz devops engineer coding,
-    fiaz devops engineer coding projects,fiaz devops engineer coding portfolio,fiaz devops engineer coding specialist,
     Open Source Contributor,open source,open source projects,open source portfolio,open source contributions,
     open source contributions portfolio,open source contributions projects,open source contributions coding,
     open source contributions coding projects,open source contributions coding portfolio,open source contributions coding specialist,
@@ -142,13 +125,13 @@ export default function Document() {
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "inovativy",
-          "url": "https://muhammadfiaz.com",
+          "url": "https://innovativy.com",
           "sameAs": [
-            "https://github.com/muhammad-fiaz",
-            "https://www.linkedin.com/in/muhammad-fiaz-",
-            "https://medium.com/@muhammad-fiaz",
-            "https://twitter.com/muhammadfiaz_",
-            "https://dev.to/muhammadfiaz"
+            "https://innovativy.com",
+            "https://www.linkedin.com/in/innovativy-",
+            "https://medium.com/@innovativy",
+            "https://twitter.com/innovativy",
+            "https://dev.to/innovativy"
           ]
         }`
                 }}
@@ -217,27 +200,27 @@ export default function Document() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://muhammadfiaz.com/"
+              "item": "https://innovativy.com/"
             },{
               "@type": "ListItem",
               "position": 2,
               "name": "Docs",
-              "item": "https://muhammadfiaz.com/docs"
+              "item": "https://innovativy.com/docs"
             },{
               "@type": "ListItem",
               "position": 3,
               "name": "Articles",
-              "item": "https://muhammadfiaz.com/articles"
+              "item": "https://innovativy.com/articles"
             },{
               "@type": "ListItem",
               "position": 4,
               "name": "Projects",
-              "item": "https://muhammadfiaz.com/projects"
+              "item": "https://innovativy.com/projects"
             },{
               "@type": "ListItem",
               "position": 5,
               "name": "Sign In",
-              "item": "https://muhammadfiaz.com/signin"
+              "item": "https://innovativy.com/signin"
             }]
           }
         `
@@ -252,10 +235,10 @@ export default function Document() {
             "name": "NeuroLink",
             "description": "NeuroLink is a Python package that aims to provide various AI capabilities, including a chatbot, image processing, audio processing, Django support, and more. It utilizes TensorFlow and other related technologies for natural language processing and AI tasks.",
             "alternateName": "neurolink",
-            "url": "https://github.com/muhammad-fiaz/neurolink",
+            "url": "https://no-site.com/neurolink",
             "logo": "",
              "sameAs": [
-            "https://www.linkedin.com/in/muhammad-fiaz-/"
+            "https://www.linkedin.com/in/innovativy-/"
         ]          }
         `
             }} />

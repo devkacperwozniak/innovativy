@@ -12,11 +12,11 @@ import SectionTitle from '../../../blocks/section.title'
 // Career scss
 import career from '../../../../styles/scss/sections/index/career.module.scss'
 import Education from "./education";
-import ContactForm from '../../../ContactForm';
+import ContactForm from './contact';
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 
-export default function Career() {
+export default function ContactContent() {
 	return (
 
 				<div className="relative bg-white lg:mt-16" id='contact'>
@@ -55,38 +55,3 @@ export default function Career() {
 	)
 }
 
-const fullStack = [
-	{ key: 'javascript', name: 'JavaScript', type: 'devicon' },
-	{ key: 'nodejs', name: 'NodeJS', type: 'devicon' },
-	{ key: 'react', name: 'React', type: 'devicon' },
-	{ key: 'nextjs', name: 'NextJS', type: 'devicon' },
-	{ key: 'php', name: 'PHP', type: 'devicon' },
-	{ key: 'wordpress', name: 'WordPress', type: 'devicon' },
-	{ key: 'html5', name: 'HTML5', type: 'devicon' },
-	{ key: 'css3', name: 'CSS3', type: 'devicon' },
-	{ key: 'sass', name: 'SASS', type: 'devicon' },
-	{ key: 'git', name: 'Git', type: 'devicon' },
-	{ key: 'mysql', name: 'MySQL', type: 'devicon' },
-	{ key: 'mongodb', name: 'MongoDB', type: 'devicon' },
-	{ key: 'python', name: 'Python', type: 'devicon' },
-	{ key: 'java', name: 'Java', type: 'devicon' },
-	{ key: 'csharp', name: 'C#', type: 'devicon' },
-	{ key: 'django', name: 'Django', type: 'devicon' },
-	{ key: 'typescript', name: 'TypeScript', type: 'devicon' },
-	{ key: 'c', name: 'C', type: 'devicon' },
-	{ key: 'cpp', name: 'C++', type: 'devicon' },
-	{ key: 'ajax', name: 'ajax', type: 'devicon' },
-	{ key: 'jquery', name: 'jQuery', type: 'devicon' },
-	{ key: 'kotlin', name: 'Kotlin', type: 'devicon' },
-	{ key: 'vuejs', name: 'Vuejs', type: 'devicon' },
-	{ key: 'tailwindcss', name: 'TailwindCSS', type: 'devicon' },
-	{ key: 'bootstrap', name: 'Bootstrap', type: 'devicon' },
-	{ key: 'npm', name: 'NPM', type: 'devicon' },
-	{ key: 'yarn', name: 'Yarn', type: 'devicon' },
-	{ key: "angularjs", name: "AngularJS", type: "devicon" },
-	{ key: "android", name: "Android", type: "devicon" },
-	{ key: "firebase", name: "Firebase", type: "devicon" },
-	{ key: "flask", name: "Flask", type: "devicon" }
-
-
-];

@@ -19,12 +19,12 @@
 	"buttons": {
 		"primary": {
 			"title": "Hire Me",
-			"url": "mailto:s.muhammadfiaz2003@gmail.com",
+			"url": "dev.kacper.wozniak@gmail.com",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "LinkedIn",
-			"url": "https://www.linkedin.com/in/muhammad-fiaz-/",
+			"url": "https://www.linkedin.com/in/dev-kacper-wozniak/",
 			"leaveSite": "true"
 		}
 	}

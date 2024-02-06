@@ -15,7 +15,7 @@ import CopyBlock from '../../blocks/about.copy'
 
 // Section scss
 import technical from '../../../styles/scss/sections/index/about.module.scss'
-import Career from './optional/career';
+import ContactContent from './optional/contactcontent';
 
 
 export default function Technical() {
@@ -51,7 +51,7 @@ export default function Technical() {
 					preTitle=""
 					subTitle=""
 				/>
-				<Career />
+				<ContactContent />
 			</div>
 		</Section>
 
@@ -61,20 +61,20 @@ export default function Technical() {
 {/*Badge Block*/ }
 
 const tech = [
-	{ key: 'javascript', name: 'JavaScript', type: 'devicon' },
-	{ key: 'typescript', name: 'TypeScript', type: 'devicon' },
-	{ key: 'nodejs', name: 'NodeJS', type: 'devicon' },
-	{ key: 'react', name: 'React', type: 'devicon' },
-	{ key: 'nextjs', name: 'NextJS', type: 'devicon' },
-	{ key: 'nestjs', name: 'NestJS', type: 'devicon' },
-	{ key: 'graphql', name: 'GraphQL', type: 'devicon' },
-	{ key: 'postgresql', name: 'PostGreSQL', type: 'devicon' },
-	{ key: 'kubernetes', name: 'Kubernetes', type: 'devicon' },
-	{ key: 'docker', name: 'Docker', type: 'devicon' },
-	{ key: 'ci/cd', name: 'CI/CD', type: 'devicon' },
-	{ key: 'jenkins', name: 'Jenkins', type: 'devicon' },
-	{ key: 'prometheus', name: 'Prometheus', type: 'devicon' },
-	{ key: 'grafana', name: 'Grafana', type: 'devicon' },
-	{ key: 'gcp', name: 'Google Cloud Platform', type: 'devicon' },
-	{ key: 'argo', name: 'Argo', type: 'devicon' },
+	{ key: 'javascript', name: 'JavaScript', type: '' },
+	{ key: 'typescript', name: 'TypeScript', type: '' },
+	{ key: 'nodejs', name: 'NodeJS', type: '' },
+	{ key: 'react', name: 'React', type: '' },
+	{ key: 'nextjs', name: 'NextJS', type: '' },
+	{ key: 'nestjs', name: 'NestJS', type: '' },
+	{ key: 'graphql', name: 'GraphQL', type: '' },
+	{ key: 'postgresql', name: 'PostGreSQL', type: '' },
+	{ key: 'kubernetes', name: 'Kubernetes', type: '' },
+	{ key: 'docker', name: 'Docker', type: '' },
+	{ key: 'ci/cd', name: 'CI/CD', type: '' },
+	{ key: 'jenkins', name: 'Jenkins', type: '' },
+	{ key: 'prometheus', name: 'Prometheus', type: '' },
+	{ key: 'grafana', name: 'Grafana', type: '' },
+	{ key: 'gcp', name: 'Google Cloud Platform', type: '' },
+	{ key: 'argo', name: 'Argo', type: '' },
 ];

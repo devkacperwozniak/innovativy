@@ -24,8 +24,6 @@
 		"babel-plugin-macros": "^3.1.0",
 		"compression-webpack-plugin": "^10.0.0",
 		"devicon": "^2.15.1",
-		"fiaz": "latest",
-		"fiazjs": "latest",
 		"framer-motion": "^10.17.0",
 		"js-cookie": "^3.0.5",
 		"neurolinkjs": "latest",
@@ -97,11 +95,11 @@
 	"version": "1.0.7",
 	"description": "Open source portfolio website built with Next.js amd TypeScript.",
 	"main": "pages/index.tsx",
-	"repository": "https://github.com/muhammad-fiaz/portfolio.git",
-	"homepage": "https://github.com/muhammad-fiaz/portfolio#readme",
+	"repository": "",
+	"homepage": "",
 	"bugs": {
-		"url": "https://github.com/muhammad-fiaz/portfolio/issues/new"
+		"url": "https:"
 	},
-	"author": "muhammad-fiaz <contact@muhammadfiaz.com>",
+	"author": "innovativy",
 	"license": "MIT"
 }
